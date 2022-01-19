@@ -1,0 +1,38 @@
+
+
+.container {
+  background: #333;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  max-width: 1920px;
+  height: 40px;
+  padding: 15px;
+}
+
+.column-one {
+  display: flex;
+  flex: 1;
+}
+
+.column-two {
+  display: flex;
+  justify-content: center;
+  flex: 2;
+}
+
+.menu-items {
+  display: flex;
+  list-style-type: none;
+  margin-left: 190px;
+}
+
+.menu-items li a {
+  padding: 0 10px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.0em;
+  line-height: 1.3em;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+}
